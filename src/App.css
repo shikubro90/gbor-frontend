@@ -1,0 +1,106 @@
+:where(.css-dev-only-do-not-override-17a39f8).ant-dropdown
+  .ant-dropdown-menu
+  .ant-dropdown-menu-item {
+  margin-bottom: 10px;
+  padding: 20px 10px;
+  line-height: 20px;
+}
+
+.ant-layout-sider-children .ant-menu-item-selected {
+  color: #fb7c29;
+  font-weight: bold;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th,
+.ant-table-wrapper .ant-table-thead > tr > td {
+  background: #fb7c29;
+  color: white;
+  border: 0;
+}
+
+.ant-pagination-item-active {
+  border: 0 !important;
+  color: #fff !important;
+  background-color: #fb7c29 !important;
+}
+
+.ant-pagination .ant-pagination-item-active a {
+  border-radius: 5px;
+  background-color: #fb7c29 !important;
+}
+
+.ant-menu-submenu-title {
+  color: white !important;
+}
+
+.ant-menu-submenu-title {
+  color: white !important;
+}
+
+:root {
+  --primary-color: #fb7c29;
+  --secondary-color: #ef4444;
+  --black-color: #252525;
+  --mute-color: #4b5563;
+}
+
+/**/
+.label {
+  position: relative;
+  margin-left: 20px;
+}
+.label::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+input[type="checkbox"]:checked + label::before {
+  background-color: #fb7c29; /* Change background color when checked */
+  border-color: #fff; /* Change border color when checked */
+}
+
+/* Style the track */
+.scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background-color: #fb7d2983;
+  border-radius: 3px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #fb7c29;
+  border-radius: 3px;
+}
+
+.uploader__btn {
+  display: none;
+}
+
+:where(.css-dev-only-do-not-override-17a39f8).ant-spin .ant-spin-dot-item {
+  background-color: #fb7c29;
+}
+
+.btn-lg {
+  width: 120px;
+}
+
+.ant-btn-primary {
+  background-color: #fb7c29 !important;
+}
+
+.ant-slider {
+}
+
+.ant-slider-track {
+  color: #fb7c29 !important;
+  background-color: #fb7c29 !important;
+}
